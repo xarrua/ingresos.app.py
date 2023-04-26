@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresos-Gastos:{{title}}</title>
+</head>
+<!--esto es un comentario en html-->
+<style>
+    table,th,td{
+        border: 1px solid #df0fc3;
+    }
+</style> 
+<body>
+
+    <header>
+        <div>
+            <a href="/">Inicio</a> |
+            <a href="/new">Nuevo</a> |
+            <a href="/update">Editar</a> |
+            <a href="/delete">Borrar</a> 
+        </div>
+
+        <h1>Aplicación Web Flask de BCVX</h1>
+    </header>
+
+    <section>
+     {# esto es un comentario en jinja #}
+     {% block pageBase %} {# esto es un hueco para recibir una plantilla html #}
+
+     {% endblock %}
+
+    </section>
+
+    <footer>
+        &copy;2023 - Todos los derechos reservados- rolando@email.com
+    </footer>
+
+</body>
+</html>
